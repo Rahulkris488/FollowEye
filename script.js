@@ -43,29 +43,5 @@ window.addEventListener("mousemove", function (det) {
         var recy=rect.details.clientX
         console.log("recx")
     })
-    
-    // var className = "imgha";
-    // var existingDiv = document.querySelector("." + className);
-    // if (x <= 150 || x >= 1700 || y <= 200 || y >= 800) {
-    //     if (!existingDiv) {
-    //         var div = document.createElement("div");
-    //         div.classList.add(className);
-    //         var img = document.createElement("img");
-    //         img.src = "http://clipart-library.com/images_k/transparent-cartoon-mouth/transparent-cartoon-mouth-9.png";
-    //         div.appendChild(img);
-    //         rect.appendChild(div);
-    //         document.body.appendChild(rect);
 
-    //         div.style.position = "absolute";
-    //         div.style.left = `${rect.clientX}px`;
-    //         div.style.top = `${rect.clientX}px`;
-    //     } else {
-    //         existingDiv.style.left = `${x}px`;
-    //         existingDiv.style.top = `${y}px`;
-    //     }
-    // } else {
-    //     if (existingDiv) {
-    //         existingDiv.remove();
-    //     }
-    // }
 });
